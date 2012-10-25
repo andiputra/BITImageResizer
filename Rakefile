@@ -2,6 +2,7 @@ require 'rubygems'
 
 task :default => [:resize]
 
+desc 'Generate non-retina version of images'
 task :resize do
   # Check if gem exists
   # If it's not, install it
