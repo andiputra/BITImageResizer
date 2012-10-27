@@ -2,13 +2,16 @@ A simple Ruby script to generate the non-retina version of images for
 iPhone and iPad.
 
 ## How To Use
-1. First, you'll need to have Ruby(v1.9.3, preferably) and rmagick(v2.+,
-   preferably)gem installed, if you haven't already.
+1. First, you'll need to have Ruby and rmagick gem (v2.+,
+   preferably) installed. NOTE: *To install rmagick gem, you'll need to
+have imagemagick installed first. So, do* `brew install imagemagick` *if
+you're using Homebrew. Then, * `gem install rmagick` to
+install rmagick gem.
 2. Move into `bit_image_resizer` folder. Open Terminal. Type `rake`. ENTER.
-3. There will be a prompt that ask for the images to be resized
-   directory. Enter it.
-4. Then, another prompt for the directory in which to save the resized
-   images. Enter it.
+3. There will be a prompt that ask for the *directory of images to be
+   resized*. Enter it.
+4. Then, another prompt for the *directory in which to save the resized
+   images*. Again, enter it.
 5. DONE. All images with `@2x` suffix and its variations (`@2x~iphone`,
    `@2x~ipad`) in the first directory you've entered will be resized and
    saved to the second directory you entered.
