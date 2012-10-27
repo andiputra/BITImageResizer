@@ -4,9 +4,9 @@ iPhone and iPad.
 ## How To Use
 1. First, you'll need to have Ruby and rmagick gem (v2.+,
    preferably) installed. NOTE: *To install rmagick gem, you'll need to
-have imagemagick installed first. So, do* `brew install imagemagick` *if
-you're using Homebrew. Then, * `gem install rmagick` to
-install rmagick gem.
+have imagemagick installed first. So, do `brew install imagemagick` if
+you're using Homebrew. Then, `gem install rmagick` to
+install rmagick gem.*
 2. Move into `bit_image_resizer` folder. Open Terminal. Type `rake`. ENTER.
 3. There will be a prompt that ask for the *directory of images to be
    resized*. Enter it.
