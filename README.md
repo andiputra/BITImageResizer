@@ -1,4 +1,5 @@
-A simple Ruby script to resize iPhone/iPad retina images for non-retina screens.
+A simple Ruby script to generate the non-retina version of images for
+iPhone and iPad.
 
 ## How To Use
 1. First, you'll need to have Ruby(v1.9.3, preferably) and rmagick(v2.+,
